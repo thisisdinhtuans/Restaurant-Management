@@ -1,0 +1,142 @@
+C:\Users\Dinh Tuans\source\repos\QLNH\QLNH\bin\Debug\netcoreapp3.0\appsettings.Development.json
+C:\Users\Dinh Tuans\source\repos\QLNH\QLNH\bin\Debug\netcoreapp3.0\appsettings.json
+C:\Users\Dinh Tuans\source\repos\QLNH\QLNH\bin\Debug\netcoreapp3.0\Properties\launchSettings.json
+C:\Users\Dinh Tuans\source\repos\QLNH\QLNH\bin\Debug\netcoreapp3.0\QLNH.exe
+C:\Users\Dinh Tuans\source\repos\QLNH\QLNH\bin\Debug\netcoreapp3.0\QLNH.deps.json
+C:\Users\Dinh Tuans\source\repos\QLNH\QLNH\bin\Debug\netcoreapp3.0\QLNH.runtimeconfig.json
+C:\Users\Dinh Tuans\source\repos\QLNH\QLNH\bin\Debug\netcoreapp3.0\QLNH.runtimeconfig.dev.json
+C:\Users\Dinh Tuans\source\repos\QLNH\QLNH\bin\Debug\netcoreapp3.0\QLNH.dll
+C:\Users\Dinh Tuans\source\repos\QLNH\QLNH\bin\Debug\netcoreapp3.0\QLNH.pdb
+C:\Users\Dinh Tuans\source\repos\QLNH\QLNH\obj\Debug\netcoreapp3.0\QLNH.csproj.AssemblyReference.cache
+C:\Users\Dinh Tuans\source\repos\QLNH\QLNH\obj\Debug\netcoreapp3.0\staticwebassets\QLNH.StaticWebAssets.Manifest.cache
+C:\Users\Dinh Tuans\source\repos\QLNH\QLNH\obj\Debug\netcoreapp3.0\staticwebassets\QLNH.StaticWebAssets.xml
+C:\Users\Dinh Tuans\source\repos\QLNH\QLNH\obj\Debug\netcoreapp3.0\QLNH.csproj.CoreCompileInputs.cache
+C:\Users\Dinh Tuans\source\repos\QLNH\QLNH\obj\Debug\netcoreapp3.0\QLNH.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Dinh Tuans\source\repos\QLNH\QLNH\obj\Debug\netcoreapp3.0\QLNH.AssemblyInfoInputs.cache
+C:\Users\Dinh Tuans\source\repos\QLNH\QLNH\obj\Debug\netcoreapp3.0\QLNH.AssemblyInfo.cs
+C:\Users\Dinh Tuans\source\repos\QLNH\QLNH\obj\Debug\netcoreapp3.0\QLNH.RazorTargetAssemblyInfo.cache
+C:\Users\Dinh Tuans\source\repos\QLNH\QLNH\obj\Debug\netcoreapp3.0\QLNH.dll
+C:\Users\Dinh Tuans\source\repos\QLNH\QLNH\obj\Debug\netcoreapp3.0\QLNH.pdb
+C:\Users\Dinh Tuans\source\repos\QLNH\QLNH\bin\Debug\netcoreapp3.0\BouncyCastle.Crypto.dll
+C:\Users\Dinh Tuans\source\repos\QLNH\QLNH\bin\Debug\netcoreapp3.0\Google.Protobuf.dll
+C:\Users\Dinh Tuans\source\repos\QLNH\QLNH\bin\Debug\netcoreapp3.0\Humanizer.dll
+C:\Users\Dinh Tuans\source\repos\QLNH\QLNH\bin\Debug\netcoreapp3.0\K4os.Compression.LZ4.dll
+C:\Users\Dinh Tuans\source\repos\QLNH\QLNH\bin\Debug\netcoreapp3.0\K4os.Compression.LZ4.Streams.dll
+C:\Users\Dinh Tuans\source\repos\QLNH\QLNH\bin\Debug\netcoreapp3.0\K4os.Hash.xxHash.dll
+C:\Users\Dinh Tuans\source\repos\QLNH\QLNH\bin\Debug\netcoreapp3.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\Dinh Tuans\source\repos\QLNH\QLNH\bin\Debug\netcoreapp3.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\Dinh Tuans\source\repos\QLNH\QLNH\bin\Debug\netcoreapp3.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\Dinh Tuans\source\repos\QLNH\QLNH\bin\Debug\netcoreapp3.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\Dinh Tuans\source\repos\QLNH\QLNH\bin\Debug\netcoreapp3.0\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\Dinh Tuans\source\repos\QLNH\QLNH\bin\Debug\netcoreapp3.0\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\Dinh Tuans\source\repos\QLNH\QLNH\bin\Debug\netcoreapp3.0\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\Dinh Tuans\source\repos\QLNH\QLNH\bin\Debug\netcoreapp3.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\Dinh Tuans\source\repos\QLNH\QLNH\bin\Debug\netcoreapp3.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\Dinh Tuans\source\repos\QLNH\QLNH\bin\Debug\netcoreapp3.0\Microsoft.Extensions.Logging.dll
+C:\Users\Dinh Tuans\source\repos\QLNH\QLNH\bin\Debug\netcoreapp3.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\Dinh Tuans\source\repos\QLNH\QLNH\bin\Debug\netcoreapp3.0\Microsoft.Extensions.Options.dll
+C:\Users\Dinh Tuans\source\repos\QLNH\QLNH\bin\Debug\netcoreapp3.0\Microsoft.Extensions.Primitives.dll
+C:\Users\Dinh Tuans\source\repos\QLNH\QLNH\bin\Debug\netcoreapp3.0\Microsoft.OpenApi.dll
+C:\Users\Dinh Tuans\source\repos\QLNH\QLNH\bin\Debug\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\Dinh Tuans\source\repos\QLNH\QLNH\bin\Debug\netcoreapp3.0\MySql.Data.dll
+C:\Users\Dinh Tuans\source\repos\QLNH\QLNH\bin\Debug\netcoreapp3.0\Ubiety.Dns.Core.dll
+C:\Users\Dinh Tuans\source\repos\QLNH\QLNH\bin\Debug\netcoreapp3.0\Zstandard.Net.dll
+C:\Users\Dinh Tuans\source\repos\QLNH\QLNH\bin\Debug\netcoreapp3.0\MySqlConnector.dll
+C:\Users\Dinh Tuans\source\repos\QLNH\QLNH\bin\Debug\netcoreapp3.0\Pomelo.EntityFrameworkCore.MySql.dll
+C:\Users\Dinh Tuans\source\repos\QLNH\QLNH\bin\Debug\netcoreapp3.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\Dinh Tuans\source\repos\QLNH\QLNH\bin\Debug\netcoreapp3.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\Dinh Tuans\source\repos\QLNH\QLNH\bin\Debug\netcoreapp3.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\Dinh Tuans\source\repos\QLNH\QLNH\bin\Debug\netcoreapp3.0\System.Collections.Immutable.dll
+C:\Users\Dinh Tuans\source\repos\QLNH\QLNH\bin\Debug\netcoreapp3.0\System.ComponentModel.Annotations.dll
+C:\Users\Dinh Tuans\source\repos\QLNH\QLNH\bin\Debug\netcoreapp3.0\System.Configuration.ConfigurationManager.dll
+C:\Users\Dinh Tuans\source\repos\QLNH\QLNH\bin\Debug\netcoreapp3.0\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Dinh Tuans\source\repos\QLNH\QLNH\bin\Debug\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\Dinh Tuans\source\repos\QLNH\QLNH\bin\Debug\netcoreapp3.0\System.Security.AccessControl.dll
+C:\Users\Dinh Tuans\source\repos\QLNH\QLNH\bin\Debug\netcoreapp3.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Dinh Tuans\source\repos\QLNH\QLNH\bin\Debug\netcoreapp3.0\System.Security.Permissions.dll
+C:\Users\Dinh Tuans\source\repos\QLNH\QLNH\bin\Debug\netcoreapp3.0\System.Security.Principal.Windows.dll
+C:\Users\Dinh Tuans\source\repos\QLNH\QLNH\bin\Debug\netcoreapp3.0\System.Windows.Extensions.dll
+C:\Users\Dinh Tuans\source\repos\QLNH\QLNH\bin\Debug\netcoreapp3.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\Dinh Tuans\source\repos\QLNH\QLNH\bin\Debug\netcoreapp3.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\Dinh Tuans\source\repos\QLNH\QLNH\bin\Debug\netcoreapp3.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\Dinh Tuans\source\repos\QLNH\QLNH\bin\Debug\netcoreapp3.0\runtimes\win\lib\netcoreapp2.0\System.Security.AccessControl.dll
+C:\Users\Dinh Tuans\source\repos\QLNH\QLNH\bin\Debug\netcoreapp3.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Dinh Tuans\source\repos\QLNH\QLNH\bin\Debug\netcoreapp3.0\runtimes\unix\lib\netcoreapp2.1\System.Security.Principal.Windows.dll
+C:\Users\Dinh Tuans\source\repos\QLNH\QLNH\bin\Debug\netcoreapp3.0\runtimes\win\lib\netcoreapp2.1\System.Security.Principal.Windows.dll
+C:\Users\Dinh Tuans\source\repos\QLNH\QLNH\bin\Debug\netcoreapp3.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+C:\Users\Dinh Tuans\source\repos\QLNH\QLNH\obj\Debug\netcoreapp3.0\QLNH.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Dinh Tuans\source\repos\QLNH\QLNH\obj\Debug\netcoreapp3.0\QLNH.csproj.CopyComplete
+D:\New folder (3)\Code giao diện\QLNH\QLNH\bin\Debug\netcoreapp3.0\appsettings.Development.json
+D:\New folder (3)\Code giao diện\QLNH\QLNH\bin\Debug\netcoreapp3.0\appsettings.json
+D:\New folder (3)\Code giao diện\QLNH\QLNH\bin\Debug\netcoreapp3.0\QLNH.StaticWebAssets.xml
+D:\New folder (3)\Code giao diện\QLNH\QLNH\bin\Debug\netcoreapp3.0\QLNH.exe
+D:\New folder (3)\Code giao diện\QLNH\QLNH\bin\Debug\netcoreapp3.0\QLNH.deps.json
+D:\New folder (3)\Code giao diện\QLNH\QLNH\bin\Debug\netcoreapp3.0\QLNH.runtimeconfig.json
+D:\New folder (3)\Code giao diện\QLNH\QLNH\bin\Debug\netcoreapp3.0\QLNH.runtimeconfig.dev.json
+D:\New folder (3)\Code giao diện\QLNH\QLNH\bin\Debug\netcoreapp3.0\QLNH.dll
+D:\New folder (3)\Code giao diện\QLNH\QLNH\bin\Debug\netcoreapp3.0\QLNH.pdb
+D:\New folder (3)\Code giao diện\QLNH\QLNH\bin\Debug\netcoreapp3.0\BouncyCastle.Crypto.dll
+D:\New folder (3)\Code giao diện\QLNH\QLNH\bin\Debug\netcoreapp3.0\Google.Protobuf.dll
+D:\New folder (3)\Code giao diện\QLNH\QLNH\bin\Debug\netcoreapp3.0\Humanizer.dll
+D:\New folder (3)\Code giao diện\QLNH\QLNH\bin\Debug\netcoreapp3.0\K4os.Compression.LZ4.dll
+D:\New folder (3)\Code giao diện\QLNH\QLNH\bin\Debug\netcoreapp3.0\K4os.Compression.LZ4.Streams.dll
+D:\New folder (3)\Code giao diện\QLNH\QLNH\bin\Debug\netcoreapp3.0\K4os.Hash.xxHash.dll
+D:\New folder (3)\Code giao diện\QLNH\QLNH\bin\Debug\netcoreapp3.0\Microsoft.EntityFrameworkCore.dll
+D:\New folder (3)\Code giao diện\QLNH\QLNH\bin\Debug\netcoreapp3.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\New folder (3)\Code giao diện\QLNH\QLNH\bin\Debug\netcoreapp3.0\Microsoft.EntityFrameworkCore.Design.dll
+D:\New folder (3)\Code giao diện\QLNH\QLNH\bin\Debug\netcoreapp3.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\New folder (3)\Code giao diện\QLNH\QLNH\bin\Debug\netcoreapp3.0\Microsoft.Extensions.Caching.Abstractions.dll
+D:\New folder (3)\Code giao diện\QLNH\QLNH\bin\Debug\netcoreapp3.0\Microsoft.Extensions.Caching.Memory.dll
+D:\New folder (3)\Code giao diện\QLNH\QLNH\bin\Debug\netcoreapp3.0\Microsoft.Extensions.Configuration.Abstractions.dll
+D:\New folder (3)\Code giao diện\QLNH\QLNH\bin\Debug\netcoreapp3.0\Microsoft.Extensions.DependencyInjection.dll
+D:\New folder (3)\Code giao diện\QLNH\QLNH\bin\Debug\netcoreapp3.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\New folder (3)\Code giao diện\QLNH\QLNH\bin\Debug\netcoreapp3.0\Microsoft.Extensions.Logging.dll
+D:\New folder (3)\Code giao diện\QLNH\QLNH\bin\Debug\netcoreapp3.0\Microsoft.Extensions.Logging.Abstractions.dll
+D:\New folder (3)\Code giao diện\QLNH\QLNH\bin\Debug\netcoreapp3.0\Microsoft.Extensions.Options.dll
+D:\New folder (3)\Code giao diện\QLNH\QLNH\bin\Debug\netcoreapp3.0\Microsoft.Extensions.Primitives.dll
+D:\New folder (3)\Code giao diện\QLNH\QLNH\bin\Debug\netcoreapp3.0\Microsoft.OpenApi.dll
+D:\New folder (3)\Code giao diện\QLNH\QLNH\bin\Debug\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+D:\New folder (3)\Code giao diện\QLNH\QLNH\bin\Debug\netcoreapp3.0\MySql.Data.dll
+D:\New folder (3)\Code giao diện\QLNH\QLNH\bin\Debug\netcoreapp3.0\Ubiety.Dns.Core.dll
+D:\New folder (3)\Code giao diện\QLNH\QLNH\bin\Debug\netcoreapp3.0\Zstandard.Net.dll
+D:\New folder (3)\Code giao diện\QLNH\QLNH\bin\Debug\netcoreapp3.0\MySqlConnector.dll
+D:\New folder (3)\Code giao diện\QLNH\QLNH\bin\Debug\netcoreapp3.0\Pomelo.EntityFrameworkCore.MySql.dll
+D:\New folder (3)\Code giao diện\QLNH\QLNH\bin\Debug\netcoreapp3.0\Swashbuckle.AspNetCore.Swagger.dll
+D:\New folder (3)\Code giao diện\QLNH\QLNH\bin\Debug\netcoreapp3.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\New folder (3)\Code giao diện\QLNH\QLNH\bin\Debug\netcoreapp3.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\New folder (3)\Code giao diện\QLNH\QLNH\bin\Debug\netcoreapp3.0\System.Collections.Immutable.dll
+D:\New folder (3)\Code giao diện\QLNH\QLNH\bin\Debug\netcoreapp3.0\System.ComponentModel.Annotations.dll
+D:\New folder (3)\Code giao diện\QLNH\QLNH\bin\Debug\netcoreapp3.0\System.Configuration.ConfigurationManager.dll
+D:\New folder (3)\Code giao diện\QLNH\QLNH\bin\Debug\netcoreapp3.0\System.Diagnostics.DiagnosticSource.dll
+D:\New folder (3)\Code giao diện\QLNH\QLNH\bin\Debug\netcoreapp3.0\System.Drawing.Common.dll
+D:\New folder (3)\Code giao diện\QLNH\QLNH\bin\Debug\netcoreapp3.0\System.Security.AccessControl.dll
+D:\New folder (3)\Code giao diện\QLNH\QLNH\bin\Debug\netcoreapp3.0\System.Security.Cryptography.ProtectedData.dll
+D:\New folder (3)\Code giao diện\QLNH\QLNH\bin\Debug\netcoreapp3.0\System.Security.Permissions.dll
+D:\New folder (3)\Code giao diện\QLNH\QLNH\bin\Debug\netcoreapp3.0\System.Security.Principal.Windows.dll
+D:\New folder (3)\Code giao diện\QLNH\QLNH\bin\Debug\netcoreapp3.0\System.Windows.Extensions.dll
+D:\New folder (3)\Code giao diện\QLNH\QLNH\bin\Debug\netcoreapp3.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+D:\New folder (3)\Code giao diện\QLNH\QLNH\bin\Debug\netcoreapp3.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+D:\New folder (3)\Code giao diện\QLNH\QLNH\bin\Debug\netcoreapp3.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+D:\New folder (3)\Code giao diện\QLNH\QLNH\bin\Debug\netcoreapp3.0\runtimes\win\lib\netcoreapp2.0\System.Security.AccessControl.dll
+D:\New folder (3)\Code giao diện\QLNH\QLNH\bin\Debug\netcoreapp3.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+D:\New folder (3)\Code giao diện\QLNH\QLNH\bin\Debug\netcoreapp3.0\runtimes\unix\lib\netcoreapp2.1\System.Security.Principal.Windows.dll
+D:\New folder (3)\Code giao diện\QLNH\QLNH\bin\Debug\netcoreapp3.0\runtimes\win\lib\netcoreapp2.1\System.Security.Principal.Windows.dll
+D:\New folder (3)\Code giao diện\QLNH\QLNH\bin\Debug\netcoreapp3.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+D:\New folder (3)\Code giao diện\QLNH\QLNH\obj\Debug\netcoreapp3.0\QLNH.csproj.AssemblyReference.cache
+D:\New folder (3)\Code giao diện\QLNH\QLNH\obj\Debug\netcoreapp3.0\QLNH.GeneratedMSBuildEditorConfig.editorconfig
+D:\New folder (3)\Code giao diện\QLNH\QLNH\obj\Debug\netcoreapp3.0\QLNH.AssemblyInfoInputs.cache
+D:\New folder (3)\Code giao diện\QLNH\QLNH\obj\Debug\netcoreapp3.0\QLNH.AssemblyInfo.cs
+D:\New folder (3)\Code giao diện\QLNH\QLNH\obj\Debug\netcoreapp3.0\QLNH.csproj.CoreCompileInputs.cache
+D:\New folder (3)\Code giao diện\QLNH\QLNH\obj\Debug\netcoreapp3.0\QLNH.MvcApplicationPartsAssemblyInfo.cs
+D:\New folder (3)\Code giao diện\QLNH\QLNH\obj\Debug\netcoreapp3.0\QLNH.MvcApplicationPartsAssemblyInfo.cache
+D:\New folder (3)\Code giao diện\QLNH\QLNH\obj\Debug\netcoreapp3.0\staticwebassets\QLNH.StaticWebAssets.Manifest.cache
+D:\New folder (3)\Code giao diện\QLNH\QLNH\obj\Debug\netcoreapp3.0\staticwebassets\QLNH.StaticWebAssets.Pack.cache
+D:\New folder (3)\Code giao diện\QLNH\QLNH\obj\Debug\netcoreapp3.0\staticwebassets\msbuild.QLNH.Microsoft.AspNetCore.StaticWebAssets.props
+D:\New folder (3)\Code giao diện\QLNH\QLNH\obj\Debug\netcoreapp3.0\staticwebassets\msbuild.build.QLNH.props
+D:\New folder (3)\Code giao diện\QLNH\QLNH\obj\Debug\netcoreapp3.0\staticwebassets\msbuild.buildMultiTargeting.QLNH.props
+D:\New folder (3)\Code giao diện\QLNH\QLNH\obj\Debug\netcoreapp3.0\staticwebassets\msbuild.buildTransitive.QLNH.props
+D:\New folder (3)\Code giao diện\QLNH\QLNH\obj\Debug\netcoreapp3.0\QLNH.RazorTargetAssemblyInfo.cache
+D:\New folder (3)\Code giao diện\QLNH\QLNH\obj\Debug\netcoreapp3.0\QLNH.csproj.CopyComplete
+D:\New folder (3)\Code giao diện\QLNH\QLNH\obj\Debug\netcoreapp3.0\QLNH.dll
+D:\New folder (3)\Code giao diện\QLNH\QLNH\obj\Debug\netcoreapp3.0\QLNH.pdb
+D:\New folder (3)\Code giao diện\QLNH\QLNH\obj\Debug\netcoreapp3.0\QLNH.genruntimeconfig.cache

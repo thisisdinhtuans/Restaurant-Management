@@ -1,0 +1,144 @@
+
+<p-toast></p-toast>
+
+<div class="card">
+    <p-toolbar styleClass="p-mb-4">
+        <ng-template pTemplate="left">
+            <button pButton pRipple label="Thêm nhà hàng" icon="pi pi-plus" class="p-button-success p-mr-2" (click)="openNew()"></button>
+            <!--<button pButton pRipple [label]="Delete" icon="pi pi-trash" class="p-button-danger" (click)="deleteSelectedOrders()" [disabled]="!selectedOrders || !selectedOrders.length"></button>-->
+        </ng-template>
+
+        <ng-template pTemplate="right">
+            <!--<p-fileUpload mode="basic" accept="image/*" [maxFileSize]="1000000" label="Import" chooseLabel="Import" class="p-mr-2 p-d-inline-block"></p-fileUpload>
+            <button pButton pRipple label="Export" icon="pi pi-upload" class="p-button-help"></button>-->
+            <span class="p-input-icon-left">
+              <i class="pi pi-search"></i>
+              <input
+              pInputText
+              type="text"
+              (input)="dt.filterGlobal($any($event.target).value,'contains')"
+              placeholder="Tìm ..."
+            />
+            </span>
+        </ng-template>
+    </p-toolbar>
+
+    <p-table #dt [value]="orders" [rows]="100" [paginator]="true" [globalFilterFields]="['orderNumber','description']"
+        [rowHover]="true" dataKey="id">
+
+        <!--<ng-template pTemplate="caption">
+            <div class="p-d-flex p-ai-center p-jc-between">
+                <h5 class="p-m-0">Manage Products</h5>
+                <span class="p-input-icon-left">
+                    <i class="pi pi-search"></i>
+                    <input pInputText type="text" (input)="dt.filterGlobal($event.target.value, 'contains')" placeholder="Search..." />
+                </span>
+            </div>
+        </ng-template>
+      -->
+        <ng-template pTemplate="header">
+            <tr>
+                <th pSortableColumn="orderNumber">Tên <p-sortIcon field="orderNumber"></p-sortIcon></th>
+                <th pSortableColumn="description">Chú thích <p-sortIcon field="description"></p-sortIcon></th>
+                <th pSortableColumn="created">Ngày tạo <p-sortIcon field="created"></p-sortIcon></th>
+                <th pSortableColumn="updated">Ngày chỉnh <p-sortIcon field="updated"></p-sortIcon></th>
+                <th pSortableColumn="deleted">Xóa <p-sortIcon field="deleted"></p-sortIcon></th>
+                <th pSortableColumn="voided">giảm <p-sortIcon field="voided"></p-sortIcon></th>
+                <th pSortableColumn="totalPrice">Tổng tiền <p-sortIcon field="totalPrice"></p-sortIcon></th>
+                <th pSortableColumn="paidAmount">paidAmount <p-sortIcon field="paidAmount"></p-sortIcon></th>
+
+
+
+
+                <th></th>
+            </tr>
+        </ng-template>
+
+        <ng-template pTemplate="body" let-order>
+            <tr>
+                <td>{{order.orderNumber}}</td>
+                <td>{{order.description}}</td>
+                <td>{{order.created|date:"dd/MM/yyy"}}
+                </td>
+                <td>{{order.updated|date:"dd/MM/yyy"}}</td>
+                <td>{{order.deleted}}</td>
+                <td>{{order.voided}}</td>
+                <td>{{order.totalPrice}}</td>
+                <td>{{order.paidAmount}}</td>
+
+                <button pButton pRipple icon="pi pi-pencil" class="p-button-rounded p-button-success p-mr-2" (click)="editOrder(order)"></button>
+                <button pButton pRipple icon="pi pi-trash" class="p-button-rounded p-button-warning" (click)="deleteOrder(order)"></button>
+            </tr>
+        </ng-template>
+
+        <!--<ng-template pTemplate="summary">
+            <div class="p-d-flex p-ai-center p-jc-between">
+                In total there are {{products ? products.length : 0 }} products.
+            </div>
+        </ng-template>
+      -->
+    </p-table>
+</div>
+
+<p-dialog [(visible)]="orderDialog" [style]="{width: '450px'}" header="Order Details" [modal]="true" styleClass="p-fluid">
+    <ng-template pTemplate="content">
+        <div class="p-field">
+            <label for="orderNumber">Name</label>
+            <input type="text" pInputText id="orderNumber" [(ngModel)]="order.orderNumber" required autofocus />
+            <small class="p-invalid" *ngIf="submitted && !order.orderNumber">Name is required.</small>
+        </div>
+
+
+        <div class="p-field">
+          <label for="description">Description</label>
+          <textarea if="description" pInputTextarea [(ngModel)]="order.description" required rows="3" cols="20"> </textarea>
+      </div>
+      <div class="p-field">
+        <label for="deleted">Delete</label>
+        <input type="boolean" pInputText id="deleted" [(ngModel)]="order.deleted" required autofocus />
+    </div>
+    </ng-template>
+
+
+
+        <!--<div class="p-field">
+            <label class="p-mb-3">Category</label>
+            <div class="p-formgrid p-grid">
+                <div class="p-field-radiobutton p-col-6">
+                    <p-radioButton id="category1" name="category" value="Accessories" [(ngModel)]="product.category"></p-radioButton>
+                    <label for="category1">Accessories</label>
+                </div>
+                <div class="p-field-radiobutton p-col-6">
+                    <p-radioButton id="category2" name="category" value="Clothing" [(ngModel)]="product.category"></p-radioButton>
+                    <label for="category2">Clothing</label>
+                </div>
+                <div class="p-field-radiobutton p-col-6">
+                    <p-radioButton id="category3" name="category" value="Electronics" [(ngModel)]="product.category"></p-radioButton>
+                    <label for="category3">Electronics</label>
+                </div>
+                <div class="p-field-radiobutton p-col-6">
+                    <p-radioButton id="category4" name="category" value="Fitness" [(ngModel)]="product.category"></p-radioButton>
+                    <label for="category4">Fitness</label>
+                </div>
+            </div>
+        </div>
+
+        <div class="p-formgrid p-grid">
+            <div class="p-field p-col">
+                <label for="price">Price</label>
+                <p-inputNumber id="price" [(ngModel)]="product.price" mode="currency" currency="USD" locale="en-US"></p-inputNumber>
+            </div>
+            <div class="p-field p-col">
+                <label for="quantity">Quantity</label>
+                <p-inputNumber id="quantity" [(ngModel)]="product.quantity"></p-inputNumber>
+            </div>
+        </div>
+    </ng-template>-->
+
+    <ng-template pTemplate="footer">
+        <button pButton pRipple label="Cancel" icon="pi pi-times" class="p-button-text" (click)="hideDialog()"></button>
+        <button pButton pRipple label="Save" icon="pi pi-check" class="p-button-text" (click)="saveOrder()"></button>
+    </ng-template>
+</p-dialog>
+
+<p-confirmDialog [style]="{width: '450px'}"></p-confirmDialog>

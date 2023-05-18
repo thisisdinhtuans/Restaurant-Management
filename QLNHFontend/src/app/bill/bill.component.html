@@ -1,0 +1,133 @@
+
+<p-toast></p-toast>
+
+<div class="card">
+    <p-toolbar styleClass="p-mb-4">
+        <ng-template pTemplate="left">
+            <button pButton pRipple label="Thêm hóa đơn" icon="pi pi-plus" class="p-button-success p-mr-2" (click)="openNew()"></button>
+            <!--<button pButton pRipple [label]="Delete" icon="pi pi-trash" class="p-button-danger" (click)="deleteSelectedBills()" [disabled]="!selectedBills || !selectedBills.length"></button>-->
+        </ng-template>
+
+        <ng-template pTemplate="right">
+            <!--<p-fileUpload mode="basic" accept="image/*" [maxFileSize]="1000000" label="Import" chooseLabel="Import" class="p-mr-2 p-d-inline-block"></p-fileUpload>
+            <button pButton pRipple label="Export" icon="pi pi-upload" class="p-button-help"></button>-->
+            <span class="p-input-icon-left">
+              <i class="pi pi-search"></i>
+              <input
+              pInputText
+              type="text"
+              (input)="dt.filterGlobal($any($event.target).value,'contains')"
+              placeholder="Tìm ..."
+            />
+            </span>
+        </ng-template>
+    </p-toolbar>
+
+    <p-table #dt [value]="bills" [rows]="100" [paginator]="true" [globalFilterFields]="['putId']"
+        [rowHover]="true" dataKey="id">
+
+        <!--<ng-template pTemplate="caption">
+            <div class="p-d-flex p-ai-center p-jc-between">
+                <h5 class="p-m-0">Manage Products</h5>
+                <span class="p-input-icon-left">
+                    <i class="pi pi-search"></i>
+                    <input pInputText type="text" (input)="dt.filterGlobal($event.target.value, 'contains')" placeholder="Search..." />
+                </span>
+            </div>
+        </ng-template>
+      -->
+        <ng-template pTemplate="header">
+            <tr>
+              <th pSortableColumn="putId">Đặt Id <p-sortIcon field="putId"></p-sortIcon></th>
+              <th pSortableColumn="itemId">Món ĂN Id <p-sortIcon field="itemId"></p-sortIcon></th>
+                <th pSortableColumn="parentId">Số lượng <p-sortIcon field="parentId"></p-sortIcon></th>
+                <th pSortableColumn="created">Ngày tạo <p-sortIcon field="created"></p-sortIcon></th>
+                <th pSortableColumn="updated">Ngày chỉnh <p-sortIcon field="updated"></p-sortIcon></th>
+                <th pSortableColumn="deleted">Xóa <p-sortIcon field="deleted"></p-sortIcon></th>
+            </tr>
+        </ng-template>
+
+        <ng-template pTemplate="body" let-bill>
+            <tr>
+              <td>{{bill.putId}}</td>
+                <td>{{bill.itemId}}</td>
+                <td>{{bill.quantity}}</td>
+                <td>{{bill.created|date:"dd/MM/yyy"}}
+                </td>
+                <td>{{bill.updated|date:"dd/MM/yyy"}}</td>
+                <td>{{bill.deleted}}</td>
+
+                <button pButton pRipple icon="pi pi-pencil" class="p-button-rounded p-button-success p-mr-2" (click)="editBill(bill)"></button>
+                <button pButton pRipple icon="pi pi-trash" class="p-button-rounded p-button-warning" (click)="deleteBill(bill)"></button>
+            </tr>
+        </ng-template>
+
+        <!--<ng-template pTemplate="summary">
+            <div class="p-d-flex p-ai-center p-jc-between">
+                In total there are {{products ? products.length : 0 }} products.
+            </div>
+        </ng-template>
+      -->
+    </p-table>
+</div>
+
+<p-dialog [(visible)]="billDialog" [style]="{width: '450px'}" header="Bill Details" [modal]="true" styleClass="p-fluid">
+    <ng-template pTemplate="content">
+
+    <div class="field col">
+      <label for="putId">putId</label>
+      <p-inputNumber id="putId" [(ngModel)]="bill.putId"></p-inputNumber>
+  </div>
+  <div class="field col">
+    <label for="itemId">itemId</label>
+    <p-inputNumber id="itemId" [(ngModel)]="bill.itemId"></p-inputNumber>
+</div>
+  <div class="field col">
+    <label for="quantity">quantity</label>
+    <p-inputNumber id="quantity" [(ngModel)]="bill.quantity"></p-inputNumber>
+</div>
+    </ng-template>
+
+
+
+        <!--<div class="p-field">
+            <label class="p-mb-3">Bill</label>
+            <div class="p-formgrid p-grid">
+                <div class="p-field-radiobutton p-col-6">
+                    <p-radioButton id="bill1" name="bill" value="Accessories" [(ngModel)]="product.bill"></p-radioButton>
+                    <label for="bill1">Accessories</label>
+                </div>
+                <div class="p-field-radiobutton p-col-6">
+                    <p-radioButton id="bill2" name="bill" value="Clothing" [(ngModel)]="product.bill"></p-radioButton>
+                    <label for="bill2">Clothing</label>
+                </div>
+                <div class="p-field-radiobutton p-col-6">
+                    <p-radioButton id="bill3" name="bill" value="Electronics" [(ngModel)]="product.bill"></p-radioButton>
+                    <label for="bill3">Electronics</label>
+                </div>
+                <div class="p-field-radiobutton p-col-6">
+                    <p-radioButton id="bill4" name="bill" value="Fitness" [(ngModel)]="product.bill"></p-radioButton>
+                    <label for="bill4">Fitness</label>
+                </div>
+            </div>
+        </div>
+
+        <div class="p-formgrid p-grid">
+            <div class="p-field p-col">
+                <label for="price">Price</label>
+                <p-inputNumber id="price" [(ngModel)]="product.price" mode="currency" currency="USD" locale="en-US"></p-inputNumber>
+            </div>
+            <div class="p-field p-col">
+                <label for="quantity">Quantity</label>
+                <p-inputNumber id="quantity" [(ngModel)]="product.quantity"></p-inputNumber>
+            </div>
+        </div>
+    </ng-template>-->
+
+    <ng-template pTemplate="footer">
+        <button pButton pRipple label="Cancel" icon="pi pi-times" class="p-button-text" (click)="hideDialog()"></button>
+        <button pButton pRipple label="Save" icon="pi pi-check" class="p-button-text" (click)="saveBill()"></button>
+    </ng-template>
+</p-dialog>
+
+<p-confirmDialog [style]="{width: '450px'}"></p-confirmDialog>
